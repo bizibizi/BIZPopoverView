@@ -11,7 +11,12 @@ BIZPopoverView is a custom popover as ContentView of that can be used any conten
 # Installation
 
 ### Manually
-- Copy BIZPopoverView folder to your project 
+- Copy ```Classes``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZPopoverView' 
+```
 
 
 # Usage
