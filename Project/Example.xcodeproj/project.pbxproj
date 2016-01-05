@@ -13,9 +13,9 @@
 		7E2237061C219941008DB11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237041C219941008DB11A /* Main.storyboard */; };
 		7E2237081C219941008DB11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237071C219941008DB11A /* Assets.xcassets */; };
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
-		7EC764831C27495C00E29E63 /* BIZPopoverArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC7647F1C27495C00E29E63 /* BIZPopoverArrowView.m */; settings = {ASSET_TAGS = (); }; };
-		7EC764841C27495C00E29E63 /* BIZPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC764811C27495C00E29E63 /* BIZPopoverViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7EC764871C2749DE00E29E63 /* UIViewController+BIZChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC764861C2749DE00E29E63 /* UIViewController+BIZChildViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7EB5FAB61C3B61D200EBFC8B /* BIZPopoverArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5FAB01C3B61D200EBFC8B /* BIZPopoverArrowView.m */; settings = {ASSET_TAGS = (); }; };
+		7EB5FAB71C3B61D200EBFC8B /* BIZPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5FAB21C3B61D200EBFC8B /* BIZPopoverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7EB5FAB81C3B61D200EBFC8B /* UIViewController+BIZChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5FAB51C3B61D200EBFC8B /* UIViewController+BIZChildViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		7E2237071C219941008DB11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E22370A1C219941008DB11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E22370C1C219941008DB11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EC7647E1C27495C00E29E63 /* BIZPopoverArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverArrowView.h; sourceTree = "<group>"; };
-		7EC7647F1C27495C00E29E63 /* BIZPopoverArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZPopoverArrowView.m; sourceTree = "<group>"; };
-		7EC764801C27495C00E29E63 /* BIZPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverViewController.h; sourceTree = "<group>"; };
-		7EC764811C27495C00E29E63 /* BIZPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZPopoverViewController.m; sourceTree = "<group>"; };
-		7EC764821C27495C00E29E63 /* BIZPopoverViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverViewControllerDelegate.h; sourceTree = "<group>"; };
-		7EC764851C2749DE00E29E63 /* UIViewController+BIZChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BIZChildViewController.h"; sourceTree = "<group>"; };
-		7EC764861C2749DE00E29E63 /* UIViewController+BIZChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BIZChildViewController.m"; sourceTree = "<group>"; };
-		7EC764881C274A5300E29E63 /* BIZConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIZConstants.h; sourceTree = "<group>"; };
+		7EB5FAAE1C3B61D200EBFC8B /* BIZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZConstants.h; sourceTree = "<group>"; };
+		7EB5FAAF1C3B61D200EBFC8B /* BIZPopoverArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverArrowView.h; sourceTree = "<group>"; };
+		7EB5FAB01C3B61D200EBFC8B /* BIZPopoverArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZPopoverArrowView.m; sourceTree = "<group>"; };
+		7EB5FAB11C3B61D200EBFC8B /* BIZPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverViewController.h; sourceTree = "<group>"; };
+		7EB5FAB21C3B61D200EBFC8B /* BIZPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZPopoverViewController.m; sourceTree = "<group>"; };
+		7EB5FAB31C3B61D200EBFC8B /* BIZPopoverViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZPopoverViewControllerDelegate.h; sourceTree = "<group>"; };
+		7EB5FAB41C3B61D200EBFC8B /* UIViewController+BIZChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BIZChildViewController.h"; sourceTree = "<group>"; };
+		7EB5FAB51C3B61D200EBFC8B /* UIViewController+BIZChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BIZChildViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7EC7647D1C27495C00E29E63 /* BIZPopoverView */,
+				7EB5FAAD1C3B61D200EBFC8B /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -91,20 +91,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7EC7647D1C27495C00E29E63 /* BIZPopoverView */ = {
+		7EB5FAAD1C3B61D200EBFC8B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EC764851C2749DE00E29E63 /* UIViewController+BIZChildViewController.h */,
-				7EC764861C2749DE00E29E63 /* UIViewController+BIZChildViewController.m */,
-				7EC7647E1C27495C00E29E63 /* BIZPopoverArrowView.h */,
-				7EC7647F1C27495C00E29E63 /* BIZPopoverArrowView.m */,
-				7EC764801C27495C00E29E63 /* BIZPopoverViewController.h */,
-				7EC764811C27495C00E29E63 /* BIZPopoverViewController.m */,
-				7EC764821C27495C00E29E63 /* BIZPopoverViewControllerDelegate.h */,
-				7EC764881C274A5300E29E63 /* BIZConstants.h */,
+				7EB5FAAE1C3B61D200EBFC8B /* BIZConstants.h */,
+				7EB5FAAF1C3B61D200EBFC8B /* BIZPopoverArrowView.h */,
+				7EB5FAB01C3B61D200EBFC8B /* BIZPopoverArrowView.m */,
+				7EB5FAB11C3B61D200EBFC8B /* BIZPopoverViewController.h */,
+				7EB5FAB21C3B61D200EBFC8B /* BIZPopoverViewController.m */,
+				7EB5FAB31C3B61D200EBFC8B /* BIZPopoverViewControllerDelegate.h */,
+				7EB5FAB41C3B61D200EBFC8B /* UIViewController+BIZChildViewController.h */,
+				7EB5FAB51C3B61D200EBFC8B /* UIViewController+BIZChildViewController.m */,
 			);
-			name = BIZPopoverView;
-			path = ../BIZPopoverView;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC764871C2749DE00E29E63 /* UIViewController+BIZChildViewController.m in Sources */,
+				7EB5FAB81C3B61D200EBFC8B /* UIViewController+BIZChildViewController.m in Sources */,
 				7E2237031C219941008DB11A /* ViewController.m in Sources */,
+				7EB5FAB71C3B61D200EBFC8B /* BIZPopoverViewController.m in Sources */,
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
-				7EC764831C27495C00E29E63 /* BIZPopoverArrowView.m in Sources */,
-				7EC764841C27495C00E29E63 /* BIZPopoverViewController.m in Sources */,
+				7EB5FAB61C3B61D200EBFC8B /* BIZPopoverArrowView.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
