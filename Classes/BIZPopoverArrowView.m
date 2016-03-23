@@ -112,7 +112,7 @@
     CGPoint trapezeBottomLeftPoint = CGPointZero;
     CGPoint trapezeBottomRightPoint = CGPointZero;
     CGPoint circleCenterPoint = CGPointZero;
-    CGFloat circleRadius = self.size.width * 0.2;
+    CGFloat circleRadius = self.cornerRadius;
     BOOL clockwiseDrawing = NO;
 
     switch (self.popoverPosition)
